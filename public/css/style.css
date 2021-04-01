@@ -1,0 +1,199 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../img/images/bg.jpg);
+    background-size:contain;
+    background-repeat: repeat-y;
+    background-position: fixed;
+    margin: 0;
+
+    width: 100%;
+}
+
+/* header */
+header{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;  
+}
+header>p:first-child{
+    font-size: 400%;
+    font-weight: 700;
+    color: white;
+}
+header>br{
+    display: none;
+}
+header>p:last-of-type{
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.514);
+    position: absolute;
+    left: 46.8%;
+    top: 14%;
+}
+
+
+section{
+    width: 70%;
+    margin: auto;
+}
+/* SECTION WOMENPATH */
+.womenpath{
+    background-color: white;
+    text-align: center;
+}
+.womenpath>div>img{
+    width: 100%;
+}
+.womenpath>div>p:first-of-type{
+    font-size: 150%;
+    font-weight: 700;
+    margin-top: 8%;
+}
+.womenpath>div>hr{
+    width: 9%;
+    border-color: rgba(153, 151, 151, 0.144);
+    margin-bottom: 2.5%;
+}
+.womenpath>div>p:last-of-type{
+    color:  rgba(153, 151, 151, 0.973);
+    padding-bottom: 8%;
+    letter-spacing: 3px;
+    font-size: 71%;
+    margin-bottom: 0px;
+}
+.grosPavetSaMere{
+    background-color: rgb(231, 230, 230);
+}
+.grosPavetSaMere>div{
+    margin-top: 0;
+    width:75%;
+    margin: auto;
+    padding: 10% 0%;
+}
+
+.photosX4{
+    text-align: center;
+    background-color: rgb(41, 42, 46);
+    padding: 6.5% 0;
+}
+.photosX4>div>div>p:first-child{
+    font-size: 150%;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+    padding-top: 4%;
+}
+
+.photosX4>div>div>p:last-of-type{
+    font-size: 60%;
+    color:  rgba(153, 151, 151, 0.973);
+    margin-bottom: 0;
+    padding-bottom: 4%;
+}
+.photosX4>div>div>hr{
+    width: 9%;
+    border-color: rgba(153, 151, 151, 0.144);
+    margin-bottom: 2.5%;
+}
+.photosX4>div>div:first-child{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(19, 20, 22);
+}
+.photosX4>div>div>img{
+    width: 80%;
+}
+
+.bois{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.carnet{
+    width: 100%;
+    display: flex ;
+}
+
+.d1{
+    width: 50%; 
+}
+
+.pix{
+    width:100% ;
+    display: block;
+}
+.d2{
+    width: 50%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.d2>p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.d2>p:first-of-type{
+    font-weight: 700;
+    font-size: 150%;
+}
+.d2>p:last-of-type{
+    color:  rgba(153, 151, 151, 0.973);
+}
+.d2Neo{
+    width: 50%;
+    background-color: rgb(41, 42, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.d2Neo>p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: right;
+}
+.d2Neo>p:first-of-type{
+    font-weight: 700;
+    font-size: 150%;
+    color: white;
+}
+.d2Neo>p:last-of-type{
+    color:  rgba(153, 151, 151, 0.973);
+}
+
+
+footer{
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-size:110%;
+}
+footer>div>p{
+    font-size: 50%;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
